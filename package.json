@@ -1,0 +1,22 @@
+{
+  "name": "signed-web-apps-example",
+  "version": "0.0.1",
+  "description": "Signed Web Apps Example",
+  "main": "index.js",
+  "scripts": {
+    "start": "GITHUB_COMMIT=$(git rev-parse HEAD) node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airbornos/signed-web-apps-example.git"
+  },
+  "author": "Daniel Huigens <daniel@airborn.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/airbornos/signed-web-apps-example/issues"
+  },
+  "homepage": "https://github.com/airbornos/signed-web-apps-example#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

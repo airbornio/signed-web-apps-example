@@ -1,0 +1,4 @@
+[submodule "webapp/signed-web-apps"]
+	path = webapp/signed-web-apps
+	url = https://github.com/airbornio/signed-web-apps.git
+	branch = master
